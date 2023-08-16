@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1200px;
+    height: 70vh;
+    border: 2px solid red;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+}
+.container div{
+    width: 100px;
+    height: 100%;
+}
+.container div:nth-of-type(1){
+    animation:animate 2s ease-in infinite ;
+}
+.container div:nth-of-type(2){
+    animation:animate 4s ease-in infinite ;
+}
+.container div:nth-of-type(3){
+    animation:animate 6s ease-in infinite ;
+}
+.container div:nth-of-type(4){
+    animation:animate 8s ease-in infinite ;
+}
+.container div:nth-of-type(5){
+    animation:animate 7.2s ease-in infinite ;
+}
+.container div:nth-of-type(6){
+    animation:animate 9.5s ease-in infinite ;
+}
+.container div:nth-of-type(7){
+    animation:animate 4.2s ease-in infinite ;
+}
+.container div:nth-of-type(8){
+    animation:animate 6.7s ease-in infinite ;
+}
+.container div:nth-of-type(9){
+    animation:animate 8.7s ease-in infinite ;
+}
+.container div:nth-of-type(10){
+    animation:animate 12.3s ease-in infinite ;
+}
+.container div:nth-of-type(11){
+    animation:animate 9.2s ease-in infinite ;
+}
+.container div:nth-of-type(12){
+    animation:animate 4.9s ease-in infinite ;
+}
+.container div:nth-of-type(13){
+    animation:animate 6.5s ease-in infinite ;
+}
+@keyframes animate{
+    10%{
+        height: 10%;
+        transition: 0.3s ease-in;
+        background: #14dc96;
+    }    20%{
+        height: 20%;
+        transition: 0.3s ease-in;
+        background: #dc1b1b;
+    }    30%{
+        height: 30%;
+        transition: 0.3s ease-in;
+        background: #0ae111;
+    }    40%{
+        height: 40%;
+        transition: 0.3s ease-in;
+        background: #145adc;
+    }    50%{
+        height: 50%;
+        transition: 0.3s ease-in;
+        background: #6d0ddb;
+    }    60%{
+        height: 60%;
+        transition: 0.3s ease-in;
+        background: #dc14a7;
+    }    70%{
+        height: 70%;
+        transition: 0.3s ease-in;
+        background: #b1dc14;
+    }    80%{
+        height: 80%;
+        transition: 0.3s ease-in;
+        background: #148cdc;
+    }    90%{
+        height: 90%;
+        transition: 0.3s ease-in;
+        background: #5c8ba0d3;
+    }    100%{
+        height: 100%;
+        transition: 0.3s ease-in;
+        background: #c300ff;
+    }
+}
